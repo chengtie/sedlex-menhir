@@ -16,7 +16,7 @@
 main:
     expr EOL                { $1 }
 ;
-expr:
+expr [@recovery (E_int 0)]:
     INT                     { E_int $1 }
   | BOOL                    { E_bool $1 }
   | LPAREN expr RPAREN      { $2 }

@@ -1,5 +1,3 @@
-# ocamlbuild -use-menhir -tag thread -use-ocamlfind -quiet -pkg menhirLib -pkg sedlex test.native
-
 ocamlc syntax.ml
 
 # menhir
