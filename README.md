@@ -1,8 +1,6 @@
 ## Description
 
-It is a very basic calculator written in OCaml, ocamllex and ocamlyacc. The original source is from
-
-https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html
+It is a very basic calculator written in OCaml, Sedlex and Menhir.
 
 
 ## Run
@@ -10,7 +8,8 @@ https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html
 Compile the files:
 
 ```bash
-$ ./runnme
+$ chmod 777 build.sh
+$ ./build.sh
 ```
 
 Run the executable:
@@ -19,9 +18,4 @@ Run the executable:
 $ ./calc
 ```
 
-Then you could write expressions such as `2+3`, `4*5`, and press `Enter` to check the result.
-
-## Exercice
-
-You could then try to improve this calculator, for example, make it accept more operators and functions. See `todo.txt` for some suggestions.
-
+Then you could write expressions such as `2+3`, `4*5`, and press `Enter` (and eventually `Ctrl+D`) to check the result.
