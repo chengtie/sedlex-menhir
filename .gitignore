@@ -13,7 +13,6 @@
 *.txt
 
 parser.ml
-lexer.ml
 
 # ocamlbuild working directory
 _build/
