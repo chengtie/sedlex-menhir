@@ -1,5 +1,4 @@
 ocamlc syntax.ml
-
 # menhir
 menhir --ocamlc 'ocamlfind ocamlc -thread -package sedlex -package menhirLib' --explain --infer parser.mly
 ocamlc -c parser.mli

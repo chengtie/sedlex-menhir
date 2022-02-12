@@ -9,7 +9,7 @@ let _ =
       let result = parser lexer in
         print result;
         print_newline(); 
-        flush stdout
+        flush stdout;
     done
   with Lexer.Eof ->
     exit 0
