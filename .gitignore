@@ -15,6 +15,7 @@
 syntax.ml
 parser.ml
 lexer.ml
+calc.ml
 calc
 
 # ocamlbuild working directory
