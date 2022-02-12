@@ -8,6 +8,8 @@
 *.cmxs
 *.cmxa
 *.out
+*.mli
+*.conflicts
 
 syntax.ml
 parser.ml
