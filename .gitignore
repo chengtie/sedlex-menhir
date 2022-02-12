@@ -10,6 +10,7 @@
 *.out
 *.mli
 *.conflicts
+*.txt
 
 syntax.ml
 parser.ml
