@@ -12,10 +12,8 @@
 *.conflicts
 *.txt
 
-syntax.ml
 parser.ml
 lexer.ml
-calc
 
 # ocamlbuild working directory
 _build/
