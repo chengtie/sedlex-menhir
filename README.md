@@ -7,7 +7,9 @@ It is a very basic calculator written in OCaml, Sedlex and Menhir.
 Compile the files:
 
 ```bash
-$ make calc
+$ chmod 777 build.sh
+
+$ ./build.sh
 ```
 
 Run the executable:
