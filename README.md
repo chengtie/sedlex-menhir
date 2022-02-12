@@ -9,6 +9,7 @@ Compile the files:
 
 ```bash
 $ chmod 777 build.sh
+
 $ ./build.sh
 ```
 
